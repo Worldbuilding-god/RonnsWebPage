@@ -1,3 +1,6 @@
+*{
+    text-align: center;
+}
 body{
     background-color: beige;
     color: rgb(0, 0, 152)
@@ -44,4 +47,30 @@ body{
 footer{
     background-color: #05386b;
     color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(230px, 1fr));
+}
+main h2{
+    text-align: center;
+}
+main p{
+    font-size: 110%;
+}
+@media screen and (min-width:764px){
+    .container {
+        display:grid;
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+}
+@media screen and (min-width:1280px){
+    .container {
+        display:grid;
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
 }
