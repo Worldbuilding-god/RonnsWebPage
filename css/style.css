@@ -13,7 +13,7 @@ body{
     background: url(../img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     color: white;
     height: 600px;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
@@ -25,4 +25,23 @@ body{
         Photo by me
 
     */
+}
+.btn-custom{
+    background-color: #5cdb95;
+    color: white;
+    border: none;
+}
+.btn-custom:hover{
+    background-color: #379683;
+}
+.table-custom{
+    background-color: white;
+    border: 1px solid #05386b;
+}
+.thumbnail-img{
+    border-radius: 15px;
+}
+footer{
+    background-color: #05386b;
+    color: white;
 }
