@@ -37,13 +37,6 @@ body{
 .btn-custom:hover{
     background-color: #379683;
 }
-.table-custom{
-    background-color: white;
-    border: 1px solid #05386b;
-}
-.thumbnail-img{
-    border-radius: 15px;
-}
 footer{
     background-color: #05386b;
     color: white;
